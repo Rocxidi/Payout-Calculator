@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -22,6 +21,9 @@ int main()
   //cout << "Fee:";
   //cin >> fee;
   pot = fee*entrants;
+  cout <<endl;
+  cout <<"Pot: $";
+  cout << pot<<endl;
   cout <<endl;
   cout << "Payouts:"<<endl<<endl;
   
